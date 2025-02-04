@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetStoreTestSuite">
+    <test name="UserTests">
+        <classes>
+            <class name="UserTests" />
+        </classes>
+    </test>
+
+    <test name="PetStoreTest">
+        <classes>
+            <class name="PetStoreTest" />
+        </classes>
+    </test>
+    <test name="NegativeCases">
+        <classes>
+            <class name="NegativeCases" />
+        </classes>
+    </test>
+</suite>
+

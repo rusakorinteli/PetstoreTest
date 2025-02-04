@@ -1,11 +1,9 @@
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.*;
 import Utils.Constants;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 
 public class PetStoreTest extends Constants{
